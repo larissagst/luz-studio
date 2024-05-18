@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114" height="52" viewBox="0 0 114 52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 40px;
+        font-family: BRSonoma-Medium, BR Sonoma;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        fill: #dbb505;
+      }
+    </style>
+  </defs>
+  <g id="Group_535" data-name="Group 535" transform="translate(-1671 -577.358)">
+    <text id="_2024" data-name="2024" class="cls-1" transform="translate(1671 577.358)"><tspan x="-92.6" y="40">2024</tspan></text>
+    <circle id="Ellipse_27" data-name="Ellipse 27" class="cls-2" cx="5" cy="5" r="5" transform="translate(1677 608)"/>
+  </g>
+</svg>

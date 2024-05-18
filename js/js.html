@@ -1,0 +1,124 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    /* When the user clicks on the button, 
+       toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+    function goToCategory() {
+        window.location.href = "./fotos.html"
+    }
+    function linkAboutMe() {
+        window.location.href = "./sobremim.html"
+    }
+    function newsletter() {
+        window.location.href = "./loja.html"
+    }
+
+
+</script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript">
+
+
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+            items: 1,
+            loop: true,
+            center: true,
+            URLhashListener: true,
+            autoplayHoverPause: true,
+            startPosition: 'URLHash'
+        });
+        const mediaQuery = window.matchMedia('(max-width: 768px)')
+
+        function checkSize() {
+            var parentWidth = $('.galeria-miniature').width();
+            var childWidth = parentWidth * 0.33;
+            $('.galeria-miniature ').children().children().css("width", childWidth + "px");
+        }
+        if (mediaQuery.matches) {
+            // Then trigger an alert
+            checkSize()
+        }
+        // Check if the media query is true
+        $(window).on("resize", function () {
+            if (mediaQuery.matches) {
+                // Then trigger an alert
+                checkSize()
+            }
+        });
+    });
+</script>
+<script>
+    /* When the user clicks on the button, 
+   toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+    function myFunction() {
+        var x = document.getElementById("myText").value;
+        document.getElementById("demo").innerHTML = x;
+    }
+
+    function myFunction() {
+        var x = document.getElementById("myEmail").value;
+        document.getElementById("demo").innerHTML = x;
+    }
+
+    function myFunction() {
+        var x = document.getElementById("myPhone").value;
+        document.getElementById("demo").innerHTML = x;
+    }
+
+    function myFunction() {
+        var x = document.getElementById("myLocal").value;
+        document.getElementById("demo").innerHTML = x;
+    }
+    function myFunction() {
+        var x = document.getElementById("myMessage").value;
+        document.getElementById("demo").innerHTML = x;
+    }
+</script>
+
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Luz Studio Galeria Fotos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./IMAGENS-LUIZ/Asset6.svg" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body id="menu-section-sobremim">
+    <header>
+        <div class="menu-section position-absolute top-0">
+            <header class="lista-menu z-2 vw-100 d-flex justify-content-center">
+                <div class="row container">
+                    <section class="d-none d-lg-block col-md-12">
+                        <ul class="d-flex justify-content-between align-items-center" style="margin: 1rem;">
+                            <li>
+                                <a href="./galeria.html">Galeria</a>
+                            </li>
+                            <li>
+                                <a href="./sobremim.html">Sobre mim</a>
+                            </li>
+                            <li>
+                                <a class="logo-animate" href="./index.html"><img src="./Desktop/LOGO-SVG-HOME.svg"
+                                        alt="Logo" style="width: 120px;"></a>
+                            </li>
+                            <a href="./contato.html">Contato</a>
+                            <li>
+                                <a href="./loja.html">Loja</a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+        </div>
+        <div
+            class="dropdown position-absolute d-block d-lg-none vw-100 top-0 d-flex align-items-center justify-content-between z-2">
+            <button onclick="myFunction()" class="dropbtn z-3"><img src="./Mobile/menudrpdwn.png" alt="HOME"
+                    style="padding: 12px;">MENU</button>
+            <button onclick="window.location.href='./index.html';" id="buttonlogohome"><img
+                    src="./Desktop/LOGO-SVG-HOME.svg" alt="Logo" style="width: 100px;"></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="./loja.html">LOJA</a>
+                <a href="./sobremim.html">SOBRE MIM</a>
+                <a href="./galeria.html">GALERIA</a>
+            </div>
+            <a href="./contato.html" style="padding: 12px;">CONTATO</a>
+        </div>
+
+    </header>
+
+    <body>
+        <main class="content-about-me">
+            <section class="row container">
+                <div class="col-md-10 col-lg-8" style="margin-top: 120px;">
+                    <h1 class="Título-principal-about-me">OLÁ!</h1>
+                    <h3 class="h3pag-about">JUNTOS, VAMOS CRIAR MEMÓRIAS</h3>
+                    <p class="paragrafobranco-about">Desde o início da minha jornada na fotografia, o que sempre me
+                        encantou
+                        foi a capacidade de criar memórias e registrar momentos genuínos e únicos que durarão para o
+                        resto de nossas vidas.
+                    </p>
+                    <p class="paragrafobranco-about">
+                        A ideia de documentar a verdade e a singularidade de cada pessoa me fascina e me emociona
+                        profundamente. Seja em casamentos, ensaios de casais ou famílias, cada ocasião traz uma emoção
+                        diferente. Vai muito além de capturar algumas fotos bonitas, é sobre contar histórias através
+                        das imagens.
+                    </p>
+                    <p class="paragrafobranco-about">
+                        Sorrisos espontâneos, abraços apertados e todas as expressões de afeto servem como minha
+                        motivação diária e alimentam minha paixão por retratar histórias reais, onde o sentimento fala
+                        mais alto, independentemente do lugar onde estejamos.
+                    </p>
+                    <p class="paragrafobranco-about">
+                        Quer entrar em contato e conversar um pouco sobre algum projeto?
+                    </p>
+                </div>
+                <div>
+                    <button
+                        onclick="window.location.href='https://api.whatsapp.com/send/?phone=5582982123931&text&type=phone_number&app_absent=0';"
+                        id="buttonwhite" style="margin-left: 2.5rem;">Agendar</button>
+                </div>
+            </section>
+
+        </main>
+        <footer class="bckgd-footer">
+            <section class="image-wrapper container-fluid position-relative">
+                <div class="row">
+                    <img class="col-12" src="./Desktop/IMGFooter.png" alt="Arte footer">
+            </section>
+            <section class="footer-content container">
+                <div class="row">
+                    <div class="logo-contain col-12 col-md-3">
+                        <img src="./Desktop/LOGO-SVG-HOME.svg" alt="Logo footer">
+                        <p class="info-footer">luizantoniosa.adm@gmail.com</p>
+                        <span class="info-footer2">+55 82 993027941</span>
+                    </div>
+                    <div class="lista-footer1 col-12 col-md-3">
+                        <ul>
+                            <li>
+                                <a href="./galeria.html">Galeria</a>
+                            </li>
+                            <li>
+                                <a href="./sobremim.html">Sobre mim</a>
+                            </li>
+                            <li>
+                                <a href="./contato.html">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lista-footer2 col-12 col-md-3">
+                        <ul>
+                            <li>
+                                <a href="./index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="./loja.html">Loja</a>
+                            </li>
+                            <li>
+                                <a href="./galeria.html">Serviços</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <h3>Newsletter</h3>
+                        <button onclick="newsletter()">Subscrever</button>
+                        <ul class="col-6">
+                            <li class="fa-instagram">
+                                <a href="https://www.instagram.com/luizantoniomcz/"><img alt="svgImg"
+                                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAsMCwzMDAsMTUwIgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxnIHRyYW5zZm9ybT0ic2NhbGUoMTAuNjY2NjcsMTAuNjY2NjcpIj48cGF0aCBkPSJNOCwzYy0yLjc1NywwIC01LDIuMjQzIC01LDV2OGMwLDIuNzU3IDIuMjQzLDUgNSw1aDhjMi43NTcsMCA1LC0yLjI0MyA1LC01di04YzAsLTIuNzU3IC0yLjI0MywtNSAtNSwtNXpNOCw1aDhjMS42NTQsMCAzLDEuMzQ2IDMsM3Y4YzAsMS42NTQgLTEuMzQ2LDMgLTMsM2gtOGMtMS42NTQsMCAtMywtMS4zNDYgLTMsLTN2LThjMCwtMS42NTQgMS4zNDYsLTMgMywtM3pNMTcsNmMtMC41NTIyOCwwIC0xLDAuNDQ3NzIgLTEsMWMwLDAuNTUyMjggMC40NDc3MiwxIDEsMWMwLjU1MjI4LDAgMSwtMC40NDc3MiAxLC0xYzAsLTAuNTUyMjggLTAuNDQ3NzIsLTEgLTEsLTF6TTEyLDdjLTIuNzU3LDAgLTUsMi4yNDMgLTUsNWMwLDIuNzU3IDIuMjQzLDUgNSw1YzIuNzU3LDAgNSwtMi4yNDMgNSwtNWMwLC0yLjc1NyAtMi4yNDMsLTUgLTUsLTV6TTEyLDljMS42NTQsMCAzLDEuMzQ2IDMsM2MwLDEuNjU0IC0xLjM0NiwzIC0zLDNjLTEuNjU0LDAgLTMsLTEuMzQ2IC0zLC0zYzAsLTEuNjU0IDEuMzQ2LC0zIDMsLTN6Ij48L3BhdGg+PC9nPjwvZz4KPC9zdmc+" />Instagram</a>
+                            </li>
+                            <li class="fa-linkedin">
+                                <a href="https://www.linkedin.com/in/luizantoniomcz/"><img alt="svgImg"
+                                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxnIHRyYW5zZm9ybT0ic2NhbGUoMTAuNjY2NjcsMTAuNjY2NjcpIj48cGF0aCBkPSJNMTksM2gtMTRjLTEuMTA1LDAgLTIsMC44OTUgLTIsMnYxNGMwLDEuMTA1IDAuODk1LDIgMiwyaDE0YzEuMTA1LDAgMiwtMC44OTUgMiwtMnYtMTRjMCwtMS4xMDUgLTAuODk1LC0yIC0yLC0yek05LDE3aC0yLjUyM3YtN2gyLjUyM3pNNy42OTQsOC43MTdjLTAuNzcxLDAgLTEuMjg2LC0wLjUxNCAtMS4yODYsLTEuMmMwLC0wLjY4NiAwLjUxNCwtMS4yIDEuMzcxLC0xLjJjMC43NzEsMCAxLjI4NiwwLjUxNCAxLjI4NiwxLjJjMCwwLjY4NiAtMC41MTQsMS4yIC0xLjM3MSwxLjJ6TTE4LDE3aC0yLjQ0MnYtMy44MjZjMCwtMS4wNTggLTAuNjUxLC0xLjMwMiAtMC44OTUsLTEuMzAyYy0wLjI0NCwwIC0xLjA1OCwwLjE2MyAtMS4wNTgsMS4zMDJjMCwwLjE2MyAwLDMuODI2IDAsMy44MjZoLTIuNTIzdi03aDIuNTIzdjAuOTc3YzAuMzI1LC0wLjU3IDAuOTc2LC0wLjk3NyAyLjE5NywtMC45NzdjMS4yMjEsMCAyLjE5OCwwLjk3NyAyLjE5OCwzLjE3NHoiPjwvcGF0aD48L2c+PC9nPgo8L3N2Zz4=" />LinkedIn</a>
+
+                            </li>
+                        </ul>
+                        <img src="./icons/footerano.png">
+                        <p class="autoria">Designed by Larissa Santos</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            </div>
+        </footer>
+        <script>
+            /* When the user clicks on the button, 
+       toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function (event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+            function newsletter() {
+                window.location.href = "./loja.html"
+            }
+        </script>
+    </body>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled document</title>
+</head>
+
+
+<body>
+    <h1>Formulario de registro</h1>
+    <form id="userInfo">
+        <label for="FirstName">Nome</label>
+        <input type="text" id="FirstName">
+        <label for="lastname">Apelido</label>
+        <input type="text" id="lastname">
+        <label for="age">Idade</label>
+        <input type="number" id="age">
+        <button type="button" id="submitButton" onClick="guardarformulario()">Submit</button>
+    </form>
+    <div id="output"></div>
+    <script>
+        function guardarVariavel() {
+            var nomeInput = document.getElementById("FirstName").value;
+            var ApelidoInput = document.getElementById("lastName").value;
+            var IdadeInput = document.getElementById("age").value;
+
+            document.getElementById('output').innerHTML = "<b>Nome:</b>" + nomeInput +
+                "<b>Apelido</b>" + ApelidoInput + "br /" + "<b>Idade</b>" + IdadeInput;
+
+        };
+    </script>
+
+</body>
+
+</html>

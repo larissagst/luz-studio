@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <style>
+        p {
+            margin: 8px;
+            font-size: 35px;
+        }
+
+        .normal {
+            display: block;
+            border: 1px solid green;
+            width: 80px;
+            height: 30px;
+            background-color: yellow;
+            padding: 10px;
+            transition: all 1s;
+        }
+
+        .selected {
+            display: block;
+            border: 2px solid green;
+            width: 160px;
+            height: 60px;
+            background-color: lightgreen;
+            padding: 20px;
+        }
+
+        .highlight {
+            background: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+    <p>GeeksforGeeks</p>
+    <p class="normal">gfh</p>
+    <p class="normal">CSE</p>
+    <button class="add">add class</button>
+    <button class="remove">remove class</button>
+    <button class="toggle">toggle class</button>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+        </script>
+    <script>
+
+        $(".add").click(function () {
+            $("p").last().addClass("selected");
+            $(".remove").click(function () {
+                $("p").last().removeClass("selected");
+            });
+        });
+        $(".toggle").click(function () {
+            $("p").last().toggleClass("selected");
+        });
+    </script>
+
+</body>
+
+</html>

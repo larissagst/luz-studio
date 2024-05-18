@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Luz Studio Galeria Esportes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./IMAGENS-LUIZ/Asset6.svg" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="js/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/assets/owl.theme.default.min.css">
+
+</head>
+
+<body id="body-section">
+    <header id="header">
+        <div class="menu-section position-absolute top-0">
+            <header class="lista-menu z-2 vw-100 d-flex justify-content-center">
+                <div class="row container">
+                    <section class="d-none d-lg-block col-md-12">
+                        <ul class="d-flex justify-content-between align-items-center" style="margin: 1rem;">
+                            <li>
+                                <a href="./galeria.html">Galeria</a>
+                            </li>
+                            <li>
+                                <a href="./sobremim.html">Sobre mim</a>
+                            </li>
+                            <li>
+                                <a class="logo-animate" href="./index.html"><img src="./Desktop/LOGO-SVG-HOME.svg"
+                                        alt="Logo" style="width: 120px;"></a>
+                            </li>
+                            <a href="./contato.html">Contato</a>
+                            <li>
+                                <a href="./loja.html">Loja</a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+        </div>
+        <div
+            class="dropdown position-absolute d-block d-lg-none vw-100 top-0 d-flex align-items-center justify-content-between z-2">
+            <button onclick="myFunction()" class="dropbtn z-3"> <img src="./Mobile/menudrpdwn.png" alt="HOME"
+                    style="padding: 12px;">MENU</button>
+            <button onclick="window.location.href='./index.html';" id="buttonlogohome"><img
+                    src="./Desktop/LOGO-SVG-HOME.svg" alt="Logo" style="width: 100px;"></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="./loja.html">LOJA</a>
+                <a href="./sobremim.html">SOBRE MIM</a>
+                <a href="./galeria.html">GALERIA</a>
+            </div>
+            <a href="./contato.html" style="padding: 12px;">CONTATO</a>
+        </div>
+
+    </header>
+
+    <main>
+        <section id="visualização-fotos position-relative h-100" style="margin-top: 120px;">
+            <div class="container">
+                <ul class="col-12 d-flex justify-content-between align-content-center">
+
+                    <li>
+                        <a class="btn-back-galeria" href="./galeria.html">
+                            <img src="./icons/galeriavoltaricon.svg" alt="Botão voltar para categoria">
+                        </a>
+                    </li>
+                    <div class="d-none d-lg-block">
+                        <button type="button" id="btn-btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                            <img src="./icons/botaovg.svg" alt="Botão visualizar em grade" style="width: 200px;">
+                        </button>
+                    </div>
+                </ul>
+            </div>
+            <div class="container mt-3">
+            </div>
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+                <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"> <img
+                                    src="./icons/botaofechar.png" alt=""></button>
+                        </div>
+                        <!-- Modal body -->
+                        <div class="modal-body container">
+                            <div class="modal-body row">
+                                <div class="colunm-left-top col-md-12 col-lg-6">
+                                    <img src="./IMAGENS-LUIZ/Esportes/desafio-vitta-x-32-2560x1706.jpg" alt="Esportes"
+                                        class="img-display-vertical1 d-block w-100">
+                                    <img src="./IMAGENS-LUIZ/Esportes/desafio-vitta-x-34-2560x1706.jpg" alt="Esportes"
+                                        class="img-display-horizontal d-block w-100">
+                                    <img src="./IMAGENS-LUIZ/Esportes/desafio-vitta-x-48-1706x2560.jpg" alt="Esportes"
+                                        class="img-display d-block w-100">
+                                </div>
+                                <div class="column-right-top col-md-12 col-lg-6">
+                                    <img src="./IMAGENS-LUIZ/Esportes/desafio-vitta-x-53-2560x1706.jpg" alt="Esportes"
+                                        class="img-display d-block w-100">
+                                    <img src="./IMAGENS-LUIZ/Esportes/desafio-vitta-x-5-2560x1706.jpg" alt="Esportes"
+                                        class="img-display-horizontal d-block w-100">
+                                </div>
+                                <div class="column-left-second col-md-12 col-lg-6"
+                                    style="padding-top: 120px!important;">
+                                    <img src="./IMAGENS-LUIZ/Esportes/loja-corporativo-4-1706x2560.jpg" alt="Esportes"
+                                        class="img-display-horizontal d-block w-100">
+                                    <img src="./IMAGENS-LUIZ/Esportes/loja-corporativo-5-1706x2560.jpg" alt="Esportes"
+                                        class="img-display d-block w-100">
+
+                                </div>
+                                <div class="column-right-second col-md-12 col-lg-6"
+                                    style="padding-top: 120px!important;">
+                                    <img src="./IMAGENS-LUIZ/Esportes/loja-corporativo-3-1706x2560.jpg" alt="Esportes"
+                                        class="img-display d-block w-100">
+                                </div>
+                                <div class="column-left-third col-md-12 col-lg-6" style="padding-top: 120px!important;">
+                                    <img src="./IMAGENS-LUIZ/Esportes/radical-casal-2-1706x2560.jpg" alt="Esportes"
+                                        class="img-display-horizontal d-block w-100">
+                                    <img src="./IMAGENS-LUIZ/Esportes/radical-casal-4-1706x2560.jpg" alt="Esportes"
+                                        class="img-display-horizontal d-block w-100">
+                                </div>
+                                <div class="column-right-third col-md-12 col-lg-6"
+                                    style="padding-top: 120px!important;">
+                                    <img src="./IMAGENS-LUIZ/Esportes/radical-casal-5-2560x1706.jpg" alt="Esportes"
+                                        class="img-display-horizontal d-block w-100">
+                                </div>
+                                <div class="column-left-fourth col-md-12 col-lg-6"
+                                    style="padding-top: 120px!important;">
+                                    <img src="./IMAGENS-LUIZ/Esportes/militar-1-2499x1999.jpg" alt="Esportes"
+                                        class="img-display-horizontal d-block w-100">
+                                    <img src="./IMAGENS-LUIZ/Esportes/militar-2-1999x2499.jpg" alt="Esportes"
+                                        class="img-display-horizontal d-block w-100">
+                                    <img src="./IMAGENS-LUIZ/Esportes/militar-3-2000x2500.jpg" alt="Esportes"
+                                        class="img-display-horizontal d-block w-100">
+                                </div>
+                                <div class="column-right-fourth col-md-12 col-lg-6"
+                                    style="padding-top: 120px!important;">
+                                    <img src="./IMAGENS-LUIZ/Esportes/militar-4-2499x1999.jpg" alt="Esportes"
+                                        class="img-display-horizontal d-block w-100">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="container">
+                <div class="galeria-img-row row flex-column-reverse flex-md-row">
+                    <div class="galeria-miniature col-12 col-md-2 d-flex d-md-block">
+                        <div class="galeria-miniature-img">
+                            <a href="#zero" class="d-block"><img
+                                    src="./IMAGENS-LUIZ/Esportes/desafio-vitta-x-32-2560x1706.jpg"
+                                    class="imgscroll w-100 img-fluid" alt="Imagem portifólio esportes"></a>
+                        </div>
+                        <div class="galeria-miniature-img">
+
+                            <a href="#one" class="d-block"><img
+                                    src="./IMAGENS-LUIZ/Esportes/desafio-vitta-x-34-2560x1706.jpg"
+                                    class="imgscroll w-100 img-fluid" alt="Imagem portifólio esportes"></a>
+                        </div>
+                        <div class="galeria-miniature-img">
+
+                            <a href="#two" class="d-block"><img
+                                    src="./IMAGENS-LUIZ/Esportes/desafio-vitta-x-48-1706x2560.jpg"
+                                    class="imgscroll w-100 img-fluid" alt="Imagem portifólio esportes"></a>
+                        </div>
+                        <div class="galeria-miniature-img">
+
+                            <a href="#three" class="d-block"><img
+                                    src="./IMAGENS-LUIZ/Esportes/desafio-vitta-x-5-2560x1706.jpg"
+                                    class="imgscroll w-100 img-fluid" alt="Imagem portifólio esportes"></a>
+                        </div>
+                        <div class="galeria-miniature-img">
+
+                            <a href="#four" class="d-block"><img
+                                    src="./IMAGENS-LUIZ/Esportes/desafio-vitta-x-53-2560x1706.jpg"
+                                    class="imgscroll w-100 img-fluid" alt="Imagem portifólio esportes"></a>
+                        </div>
+                        <div class="galeria-miniature-img">
+
+                            <a href="#five" class="d-block"><img
+                                    src="./IMAGENS-LUIZ/Esportes/loja-corporativo-3-1706x2560.jpg"
+                                    class="imgscroll w-100 img-fluid" alt="Imagem portifólio esportes"></a>
+                        </div>
+                        <div class="galeria-miniature-img">
+
+                            <a href="#six" class="d-block"><img
+                                    src="./IMAGENS-LUIZ/Esportes/loja-corporativo-4-1706x2560.jpg"
+                                    class="imgscroll w-100 img-fluid" alt="Imagem portifólio esportes"></a>
+                        </div>
+                        <div class="galeria-miniature-img">
+
+                            <a href="#seven" class="d-block"><img
+                                    src="./IMAGENS-LUIZ/Esportes/loja-corporativo-5-1706x2560.jpg"
+                                    class="imgscroll w-100 img-fluid" alt="Imagem portifólio esportes"></a>
+                        </div>
+                        <div class="galeria-miniature-img">
+
+                            <a href="#eight" class="d-block"><img src="./IMAGENS-LUIZ/Esportes/militar-1-2499x1999.jpg"
+                                    class="imgscroll w-100 img-fluid" alt="Imagem portifólio esportes"></a>
+                        </div>
+                        <div class="galeria-miniature-img">
+
+                            <a href="#nine" class="d-block"><img src="./IMAGENS-LUIZ/Esportes/militar-2-1999x2499.jpg"
+                                    class="imgscroll w-100 img-fluid" alt="Imagem portifólio esportes"></a>
+                        </div>
+                        <div class="galeria-miniature-img">
+
+                            <a href="#ten" class="d-block"><img src="./IMAGENS-LUIZ/Esportes/militar-3-2000x2500.jpg"
+                                    class="imgscroll w-100 img-fluid" alt="Imagem portifólio esportes"></a>
+                        </div>
+                        <div class="galeria-miniature-img">
+
+                            <a href="#eleven" class="d-block"><img src="./IMAGENS-LUIZ/Esportes/militar-4-2499x1999.jpg"
+                                    class="imgscroll w-100 img-fluid" alt="Imagem portifólio esportes"></a>
+                        </div>
+                        <div class="galeria-miniature-img">
+
+                            <a href="#twelve" class="d-block"><img
+                                    src="./IMAGENS-LUIZ/Esportes/radical-casal-2-1706x2560.jpg"
+                                    class="imgscroll w-100 img-fluid" alt="Imagem portifólio esportes"></a>
+                        </div>
+                        <div class="galeria-miniature-img">
+
+                            <a href="#thirteen" class="d-block"><img
+                                    src="./IMAGENS-LUIZ/Esportes/radical-casal-4-1706x2560.jpg"
+                                    class="imgscroll w-100 img-fluid" alt="Imagem portifólio esportes"></a>
+                        </div>
+                        <div class="galeria-miniature-img">
+
+                            <a href="#fourteen" class="d-block"><img
+                                    src="./IMAGENS-LUIZ/Esportes/radical-casal-5-2560x1706.jpg"
+                                    class="imgscroll w-100 img-fluid" alt="Imagem portifólio esportes"></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-10">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item d-flex justify-content-center" data-hash="zero"><img
+                                    src="./IMAGENS-LUIZ/Esportes/desafio-vitta-x-32-2560x1706.jpg"
+                                    alt="Imagem portifólio esportes" style="width: auto; height: 500px;">
+                            </div>
+
+                            <div class="item d-flex justify-content-center" data-hash="one"><img
+                                    src="./IMAGENS-LUIZ/Esportes/desafio-vitta-x-34-2560x1706.jpg"
+                                    alt="Imagem portifólio esportes" style="width: auto; height: 500px;">
+                            </div>
+
+                            <div class="item d-flex justify-content-center" data-hash="two"><img
+                                    src="./IMAGENS-LUIZ/Esportes/desafio-vitta-x-48-1706x2560.jpg"
+                                    alt="Imagem portifólio esportes" style="width: auto; height: 500px;">
+                            </div>
+
+                            <div class="item d-flex justify-content-center" data-hash="three"><img
+                                    src="./IMAGENS-LUIZ/Esportes/desafio-vitta-x-5-2560x1706.jpg"
+                                    alt="Imagem portifólio esportes" style="width: auto; height: 500px;">
+                            </div>
+
+                            <div class="item d-flex justify-content-center" data-hash="four"><img
+                                    src="./IMAGENS-LUIZ/Esportes/desafio-vitta-x-53-2560x1706.jpg"
+                                    alt="Imagem portifólio esportes" style="width: auto; height: 500px;">
+                            </div>
+                            <div class="item d-flex justify-content-center" data-hash="five"><img
+                                    src="./IMAGENS-LUIZ/Esportes/loja-corporativo-3-1706x2560.jpg"
+                                    alt="Imagem portifólio esportes" style="width: auto; height: 500px;">
+                            </div>
+                            <div class="item d-flex justify-content-center" data-hash="six"><img
+                                    src="./IMAGENS-LUIZ/Esportes/loja-corporativo-4-1706x2560.jpg"
+                                    alt="Imagem portifólio esportes" style="width: auto; height: 500px;">
+                            </div>
+                            <div class="item d-flex justify-content-center" data-hash="seven"><img
+                                    src="./IMAGENS-LUIZ/Esportes/loja-corporativo-5-1706x2560.jpg"
+                                    alt="Imagem portifólio esportes" style="width: auto; height: 500px;">
+                            </div>
+                            <div class="item d-flex justify-content-center" data-hash="eight"><img
+                                    src="./IMAGENS-LUIZ/Esportes/militar-1-2499x1999.jpg"
+                                    alt="Imagem portifólio esportes" style="width: auto; height: 500px;">
+                            </div>
+                            <div class="item d-flex justify-content-center" data-hash="nine"><img
+                                    src="./IMAGENS-LUIZ/Esportes/militar-2-1999x2499.jpg"
+                                    alt="Imagem portifólio esportes" style="width: auto; height: 500px;">
+                            </div>
+                            <div class="item d-flex justify-content-center" data-hash="ten"><img
+                                    src="./IMAGENS-LUIZ/Esportes/militar-3-2000x2500.jpg"
+                                    alt="Imagem portifólio esportes" style="width: auto; height: 500px;">
+                            </div>
+                            <div class="item d-flex justify-content-center" data-hash="eleven"><img
+                                    src="./IMAGENS-LUIZ/Esportes/militar-4-2499x1999.jpg"
+                                    alt="Imagem portifólio esportes" style="width: auto; height: 500px;">
+                            </div>
+                            <div class="item d-flex justify-content-center" data-hash="twelve"><img
+                                    src="./IMAGENS-LUIZ/Esportes/radical-casal-2-1706x2560.jpg"
+                                    alt="Imagem portifólio esportes" style="width: auto; height: 500px;">
+                            </div>
+                            <div class="item d-flex justify-content-center" data-hash="thirteen"><img
+                                    src="./IMAGENS-LUIZ/Esportes/radical-casal-4-1706x2560.jpg"
+                                    alt="Imagem portifólio esportes" style="width: auto; height: 500px;">
+                            </div>
+                            <div class="item d-flex justify-content-center" data-hash="fourteen"><img
+                                    src="./IMAGENS-LUIZ/Esportes/radical-casal-5-2560x1706.jpg"
+                                    alt="Imagem portifólio esportes" style="width: auto; height: 500px;">
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container d-flex flex-column justify-content-center align-items-center d-block d-lg-none">
+                    <button type="button" id="buttonwhitemobile" data-bs-toggle="modal" data-bs-target="#myModal">Ver
+                        grade <img style="width: 40px; padding: 8px;" src="./icons/botaovgmobile.svg"
+                            alt="Botão visualizar em grade">
+                    </button>
+                    <button
+                        onclick="window.location.href='https://api.whatsapp.com/send/?phone=5582982123931&text&type=phone_number&app_absent=0';"
+                        id="buttonwhitemobile" style="margin-top: 24px;">Agendar</button>
+                </div>
+        </section>
+        <section class="menu-ancora fixed-bottom d-none d-md-block">
+            <div class="row container" style="margin: auto;">
+                <ul class="d-flex justify-content-between align-items-center">
+                    <li>
+                        <a class="titulos-menu-ancora" href="#header">INICIO</a>
+                    </li>
+                    <li>
+                        <a class="titulos-menu-ancora" href="#comoe">COMO É</a>
+                    </li>
+                    <li>
+                        <a class="titulos-menu-ancora" href="#onde">ONDE</a>
+                    </li>
+                    <li>
+                        <a class="titulos-menu-ancora" href="#importante">IMPORTANTE</a>
+                    </li>
+                    <li>
+                        <a class="titulos-menu-ancora" href="#condições">CONDIÇÕES</a>
+                    </li>
+                    <li>
+                        <button
+                            onclick="window.location.href='https://api.whatsapp.com/send/?phone=5582982123931&text&type=phone_number&app_absent=0';"
+                            id="botãoangendar">Agendar</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="comoe">
+            <div class="service-content container d-flex align-items-center">
+                <div class="row d-flex flex-row justify-content-center py-5">
+                    <div class="col-12 col-lg-10">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <h1 class="títuloservcomoe col-md-10 col-lg-4">COMO É?</h1>
+                            <p class="textservcomoe col-md-10 col-lg-8">Uma sessão fotográfica que representa quem você
+                                é, suas
+                                paixões e
+                                interesses, suas identidades e preferências. É um momento único em que sua essência
+                                ganha vida através das imagens.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="onde">
+            <div class="content-onde container d-flex flex-column">
+                <div>
+                    <div class="col-md-12 col-lg-10">
+                        <h1 class="títuloservcomoe col-md-12  col-lg-10">ONDE ?</h1>
+                        <p class="textservcomoe col-md-12  col-lg-10">É essencial que o local escolhido para o ensaio
+                            esteja em
+                            perfeita sintonia com o contexto geral. Para isso, podemos decidir juntos qual será o
+                            local ideal, levando em consideração todas as informações do seu ensaio. Também podemos
+                            considerar sugestões de ambas as partes para garantir a melhor escolha.
+
+                            É importante mencionar que algumas locações podem ter uma taxa de uso pelo tempo de
+                            utilização. Essa taxa é de responsabilidade do cliente e deve ser paga diretamente ao
+                            proprietário do local.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="importante">
+            <div class="content-importante container d-flex flex-column justify-content-center align-items-center">
+                <div class="contentor-importante col-12">
+                    <div>
+                        <h1 class="títuloservimp col-12">IMPORTANTE</h1>
+                        <p class="textservimp col-12"> É essencial que o local escolhido para o ensaio esteja em
+                            perfeita sintonia com o contexto geral. Para isso, podemos decidir juntos qual será o
+                            local ideal, levando em consideração todas as informações do seu ensaio. Também podemos
+                            considerar sugestões de ambas as partes para garantir a melhor escolha.
+
+                            É importante mencionar que algumas locações podem ter uma taxa de uso pelo tempo de
+                            utilização. Essa taxa é de responsabilidade do cliente e deve ser paga diretamente ao
+                            proprietário do local.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="condições">
+            <div class="content-condicoes container">
+                <h1 class="title-condições">CONDIÇÕES</h1>
+                <div class="contentor-condições container d-lg-flex">
+                    <div class="condição1 d-flex align-items-center justify-content-center col-md-10 col-lg-4">
+                        <h2>À VISTA</h2>
+                    </div>
+                    <div class="content-condição1 col-md-10 col-lg-8">
+                        <p>Para garantir a reserva da data, é necessário realizar um sinal no
+                            valor correspondente a 50%
+                            do
+                            total do ensaio. O pagamento pode ser feito via depósito bancário, transferência ou PIX, e é
+                            solicitado o envio do comprovante no momento do cadastro. O restante do valor deverá ser
+                            pago no
+                            dia do ensaio, antes do início da sessão.</p>
+                    </div>
+                </div>
+                <div class="contentor-condições container d-lg-flex">
+                    <div class="condição1 d-flex align-items-center justify-content-center col-md-10 col-lg-4">
+                        <h2>PARCELADO</h2>
+                    </div>
+                    <div class="content-condição1 col-md-10 col-lg-8">
+                        <p>Oferecemos a opção de pagamento em até 12 vezes com juros,
+                            utilizando o cartão de crédito
+                            através
+                            do link disponibilizado pelo MercadoPago. Assim como em uma compra online, é necessário
+                            realizar
+                            o pagamento no ato do cadastro para que seja possível anexar o comprovante à reserva.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="bckgd-footer">
+        <section class="image-wrapper container-fluid position-relative">
+            <div class="row">
+                <img class="col-12" src="./Desktop/IMGFooter.png" alt="Arte footer">
+        </section>
+        <section class="footer-content container">
+            <div class="row">
+                <div class="logo-contain col-12 col-md-3">
+                    <img src="./Desktop/LOGO-SVG-HOME.svg" alt="Logo footer">
+                    <p class="info-footer">luizantoniosa.adm@gmail.com</p>
+                    <span class="info-footer2">+55 82 993027941</span>
+                </div>
+                <div class="lista-footer1 col-12 col-md-3">
+                    <ul>
+                        <li>
+                            <a href="./galeria.html">Galeria</a>
+                        </li>
+                        <li>
+                            <a href="./sobremim.html">Sobre mim</a>
+                        </li>
+                        <li>
+                            <a href="./contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lista-footer2 col-12 col-md-3">
+                    <ul>
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./loja.html">Loja</a>
+                        </li>
+                        <li>
+                            <a href="./galeria.html">Serviços</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <h3>Newsletter</h3>
+                    <button onclick="newsletter()">Subscrever</button>
+                    <ul class="col-6">
+                        <li class="fa-instagram">
+                            <a href="https://www.instagram.com/luizantoniomcz/"><img alt="svgImg"
+                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAsMCwzMDAsMTUwIgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxnIHRyYW5zZm9ybT0ic2NhbGUoMTAuNjY2NjcsMTAuNjY2NjcpIj48cGF0aCBkPSJNOCwzYy0yLjc1NywwIC01LDIuMjQzIC01LDV2OGMwLDIuNzU3IDIuMjQzLDUgNSw1aDhjMi43NTcsMCA1LC0yLjI0MyA1LC01di04YzAsLTIuNzU3IC0yLjI0MywtNSAtNSwtNXpNOCw1aDhjMS42NTQsMCAzLDEuMzQ2IDMsM3Y4YzAsMS42NTQgLTEuMzQ2LDMgLTMsM2gtOGMtMS42NTQsMCAtMywtMS4zNDYgLTMsLTN2LThjMCwtMS42NTQgMS4zNDYsLTMgMywtM3pNMTcsNmMtMC41NTIyOCwwIC0xLDAuNDQ3NzIgLTEsMWMwLDAuNTUyMjggMC40NDc3MiwxIDEsMWMwLjU1MjI4LDAgMSwtMC40NDc3MiAxLC0xYzAsLTAuNTUyMjggLTAuNDQ3NzIsLTEgLTEsLTF6TTEyLDdjLTIuNzU3LDAgLTUsMi4yNDMgLTUsNWMwLDIuNzU3IDIuMjQzLDUgNSw1YzIuNzU3LDAgNSwtMi4yNDMgNSwtNWMwLC0yLjc1NyAtMi4yNDMsLTUgLTUsLTV6TTEyLDljMS42NTQsMCAzLDEuMzQ2IDMsM2MwLDEuNjU0IC0xLjM0NiwzIC0zLDNjLTEuNjU0LDAgLTMsLTEuMzQ2IC0zLC0zYzAsLTEuNjU0IDEuMzQ2LC0zIDMsLTN6Ij48L3BhdGg+PC9nPjwvZz4KPC9zdmc+" />Instagram</a>
+                        </li>
+                        <li class="fa-linkedin">
+                            <a href="https://www.linkedin.com/in/luizantoniomcz/"><img alt="svgImg"
+                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxnIHRyYW5zZm9ybT0ic2NhbGUoMTAuNjY2NjcsMTAuNjY2NjcpIj48cGF0aCBkPSJNMTksM2gtMTRjLTEuMTA1LDAgLTIsMC44OTUgLTIsMnYxNGMwLDEuMTA1IDAuODk1LDIgMiwyaDE0YzEuMTA1LDAgMiwtMC44OTUgMiwtMnYtMTRjMCwtMS4xMDUgLTAuODk1LC0yIC0yLC0yek05LDE3aC0yLjUyM3YtN2gyLjUyM3pNNy42OTQsOC43MTdjLTAuNzcxLDAgLTEuMjg2LC0wLjUxNCAtMS4yODYsLTEuMmMwLC0wLjY4NiAwLjUxNCwtMS4yIDEuMzcxLC0xLjJjMC43NzEsMCAxLjI4NiwwLjUxNCAxLjI4NiwxLjJjMCwwLjY4NiAtMC41MTQsMS4yIC0xLjM3MSwxLjJ6TTE4LDE3aC0yLjQ0MnYtMy44MjZjMCwtMS4wNTggLTAuNjUxLC0xLjMwMiAtMC44OTUsLTEuMzAyYy0wLjI0NCwwIC0xLjA1OCwwLjE2MyAtMS4wNTgsMS4zMDJjMCwwLjE2MyAwLDMuODI2IDAsMy44MjZoLTIuNTIzdi03aDIuNTIzdjAuOTc3YzAuMzI1LC0wLjU3IDAuOTc2LC0wLjk3NyAyLjE5NywtMC45NzdjMS4yMjEsMCAyLjE5OCwwLjk3NyAyLjE5OCwzLjE3NHoiPjwvcGF0aD48L2c+PC9nPgo8L3N2Zz4=" />LinkedIn</a>
+
+                        </li>
+                    </ul>
+                    <img src="./icons/footerano.png">
+                    <p class="autoria">Designed by Larissa Santos</p>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+
+
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                items: 1,
+                loop: true,
+                center: true,
+                URLhashListener: true,
+                autoplayHoverPause: true,
+                startPosition: 'URLHash'
+            });
+            const mediaQuery = window.matchMedia('(max-width: 768px)')
+
+            function checkSize() {
+                var parentWidth = $('.galeria-miniature').width();
+                var childWidth = parentWidth * 0.33;
+                $('.galeria-miniature ').children().children().css("width", childWidth + "px");
+            }
+            if (mediaQuery.matches) {
+                // Then trigger an alert
+                checkSize()
+            }
+            // Check if the media query is true
+            $(window).on("resize", function () {
+                if (mediaQuery.matches) {
+                    // Then trigger an alert
+                    checkSize()
+                }
+            });
+        });
+    </script>
+    <script>
+        /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+        function newsletter() {
+            window.location.href = "./loja.html"
+        }
+
+    </script>
+
+</body>

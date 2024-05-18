@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #text {
+            font-size: 20px;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="text">Click button to change color</p>
+    <button onClick="numberWhile">numberWhile</button>
+    <button onClick="loop">Loop</button>
+    <script>
+        var nome = "Exemplo"; //string
+        var number = "34"; //number
+        var student = "false"; //boolean
+        var fruit = ["apple", "banana", "orange"];//array
+        var person = { name: "John", age: 30 }; //object
+
+        console.log('O meu nome é' + nome);
+        nome = "miguel";
+        console.log('O meu nome é' + nome);
+
+        var idade = 34;
+        if (idade > 18) {
+            alert('Maior de idade')
+        } else if (idade < 18) {
+            alert('Maior de idade');
+        } else {
+            alert('Tem 18 anos');
+        }
+
+        var diaSemana = "Segunda";
+        switch (diaSemana) {
+            case "Segunda":
+                alert('É segunda feira')
+                break;
+            case "Terça":
+                alert('É terça feira')
+                break;
+            default:
+                alert('Outro dia da semana')
+        }
+
+        function loop() {
+            for (var numero = 0; numero < 5; numero++) {
+                console.log('este pedaço de código foi executado' + (numero + 1));
+            }
+        }
+
+        function loopWhile() {
+            var numberWhile = 0;
+            while (numberWhile < 6) {
+                console.log('Numero' + numberWhile)
+                numberWhile++;
+            }
+        }
+
+        var fruit = ["apple", "banana", "orange"];
+        for (var i = 0; i < fruit.lenght; i++) {
+            if (fruit[i] == "apple") {
+                console.log("Fruta numero" + (i + 1) + " é minha fruta favorita");
+
+            }
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 398.98 52">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        filter: url(#c);
+      }
+
+      .cls-3 {
+        filter: url(#a);
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-family: BRSonoma-Regular, 'BR Sonoma';
+        font-size: 24px;
+      }
+
+      .cls-4, .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-9 {
+        opacity: .45;
+      }
+    </style>
+    <filter id="a" x="235" y="0" width="34" height="34">
+      <feOffset dy="3"/>
+      <feGaussianBlur result="b" stdDeviation="3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite in2="b" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="c" x="235" y="18" width="34" height="34">
+      <feOffset dy="3"/>
+      <feGaussianBlur result="d" stdDeviation="3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite in2="d" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-3">
+    <g class="cls-9">
+      <rect class="cls-6" x="356.98" y="7" width="14" height="14"/>
+    </g>
+  </g>
+  <g class="cls-2">
+    <g class="cls-9">
+      <rect class="cls-6" x="356.98" y="25" width="14" height="14"/>
+    </g>
+  </g>
+  <g class="cls-5">
+    <text class="cls-4" transform="translate(0 32)"><tspan x="0" y="0">Visuali</tspan><tspan class="cls-7" x="73.29" y="0">z</tspan><tspan x="85.27" y="0">ar em g</tspan><tspan class="cls-8" x="171.57" y="0">r</tspan><tspan class="cls-1" x="180.53" y="0">a</tspan><tspan x="194.3" y="0">de</tspan></text>
+  </g>
+</svg>

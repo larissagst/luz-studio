@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        opacity: .45;
+      }
+    </style>
+  </defs>
+  <g id="Botao_visualização" data-name="Botao visualização">
+    <g id="Rectangle_312-2" data-name="Rectangle 312-2" class="cls-3">
+      <rect class="cls-1" x="3.94" y="3.94" width="20.76" height="20.76"/>
+      <rect class="cls-2" x="5.24" y="5.24" width="18.17" height="18.17"/>
+    </g>
+    <g id="Rectangle_393-2" data-name="Rectangle 393-2" class="cls-3">
+      <rect class="cls-1" x="3.94" y="27.3" width="20.76" height="20.76"/>
+      <rect class="cls-2" x="5.24" y="28.6" width="18.17" height="18.17"/>
+    </g>
+    <g id="Rectangle_391-2" data-name="Rectangle 391-2" class="cls-3">
+      <rect class="cls-1" x="27.3" y="3.94" width="20.76" height="20.76"/>
+      <rect class="cls-2" x="28.6" y="5.24" width="18.17" height="18.17"/>
+    </g>
+    <g id="Rectangle_392-2" data-name="Rectangle 392-2" class="cls-3">
+      <rect class="cls-1" x="27.3" y="27.3" width="20.76" height="20.76"/>
+      <rect class="cls-2" x="28.6" y="28.6" width="18.17" height="18.17"/>
+    </g>
+  </g>
+</svg>
